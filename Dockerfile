@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y \
     curl \
     build-essential \
     python3-pip \
-    git
+    git\
+    libarchive-dev
 
 # Install Miniconda
 RUN wget "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" && \
